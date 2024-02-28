@@ -43,7 +43,7 @@ export {
     IOrderDocument,
     IOrderEvents,
     IOrderMessage,
-    IOrderNotifcation,
+    IOrderNotification,
     IOrderReview
 } from './interfaces/order.interface';
 export {
