@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.4",
   "license": "MIT",
   "types": "./src/index.d.ts",
   "description": "Helpers library for Jobber app",
@@ -35,13 +35,8 @@
     ".": {
       "import": "./src/index.js",
       "require": "./src/index.js"
-    },
-    "./icons": {
-      "import": "./esm/icons/index.js",
-      "require": "./cjs/icons/index.js"
     }
   },
-  "types": "./src/index.d.ts",
   "dependencies": {
     "@elastic/elasticsearch": "8.12.2",
     "cloudinary": "2.0.1",
