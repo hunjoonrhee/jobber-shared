@@ -17,7 +17,7 @@ export const winstonLogger = (elasticsearchNode: string, name: string, level: st
             level,
             transformer: esTransformer,
             clientOts: {
-                node: elasticsearchNode,
+                nodes: elasticsearchNode,
                 log: level,
                 maxRetries: 2,
                 requestTimeout: 10000,
